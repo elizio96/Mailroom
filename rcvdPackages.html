@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Package Entry</title>
+		<link rel="stylesheet" type="text/css" href="sample.css">
+
+	</head>
+	<body>
+	<h1>Iona College</h1> 
+	<table border="0">
+		<tr> 
+				<th><a href = "http://www.iona.edu"> <img src="photo2.png" alt="text description" width=50></a></th>  											<th><h1>Received Packages</h1></th> <th><a href = "index.html"> Logout </a></th>
+		</tr>
+		<tr> 
+				 <th><a href = "Menu.html">Menu</a><br>
+					Iona College
+				</th>  <th>Received Package Entry<br><br>
+				<form action = "rcvdPackages.php" method="get">
+					<div align="left"> 
+					Tracking#: <input type="text" name="trackingNum" size="25" required><br>
+					Carrier: <input type="text" name="deliveredFromCarrier" size="20" required><br>
+					Date(Y-M-D): <input type="date" name="delFromCarrierDate" size="12" required><br>
+					Enter empID: <input type="text" name="empID" size="6" required><br> 
+					Delivered to Dorm: <select name="delToDorm">
+						<option value="Conese">Conese</option>
+						<option value="East">East</option>
+						<option value="Eastchester">Eastchester</option>
+						<option value="Loftus">Loftus</option>
+						<option value="New North Ave">North Ave</option>
+						<option value="Rice">Rice</option>
+						<option value="South">South</option>
+						<option value="New Mayflower Apt">Mayflower Apt</option>
+						<option value="Residence Inn">Residence Inn</option>
+					</select><br><br><br>
+					</div>
+					<input type="submit" name="Submit" value="Submit">
+					<input type="reset" name="reset"value="Reset">
+				</form>
+		</th>
+		</tr>
+		<tr> 
+
+		</tr>
+
+	</table>
+
+
+	</body>
+</html>

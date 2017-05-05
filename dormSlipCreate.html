@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Dorm Slip Creation</title>
+		<link rel="stylesheet" type="text/css" href="sample.css">
+
+	</head>
+	<body>
+	<h1>Iona College</h1> 
+	<table border="0">
+		<tr> 
+				<th><a href = "http://www.iona.edu"> <img src="photo2.png" alt="text description" width=50></a></th>  							<th><h1>Dorm Slip Creation</h1></th> <th><a href = "index.html"> Logout </a></th>
+		</tr>
+
+		<tr> 
+					 <th><a href = "Menu.html">Menu</a><br>
+						Iona College
+					</th>  <th>Dorm Slip Creation<br><br>
+					
+				<form action = "dormSlipCreate.php" method="get">
+					<div align="left"> 
+					Student Worker ID: <input type="text" name="stuWorkerID" size="6" required><br>
+					First Name: <input type="text" name="slipFirstN" size="15" required>
+					Last Name: <input type="text" name="slipLastN" size="30" required><br>
+					Location: <select name="location">
+						<option value="Conese">Conese</option>
+						<option value="East">East</option>
+						<option value="Eastchester">Eastchester</option>
+						<option value="Loftus">Loftus</option>
+						<option value="New North Ave">North Ave</option>
+						<option value="Rice">Rice</option>
+						<option value="South">South</option>
+						<option value="New Mayflower Apt">Mayflower Apt</option>
+						<option value="Residence Inn">Residence Inn</option>
+					</select><br>
+					Tracking#: <input type="text" name="trackNum" size="25" required><br>
+					Room#: <input type="text" name="roomNum" size="8" required>
+					Date Delivered (Y-M-D): <input type="text" name="dateDel" size="12"><br>
+					Type of Package: <select name="boxSize">
+						<option value="BOX"> Box </option>
+						<option value=:"BAG"> Bag</option>
+						<option value=:"ENVELOPE">Envolope</option>
+					</select><br>					</div>
+					<input type="submit" name="Submit" value="Submit">
+					<input type="reset" name="reset"value="Reset">
+				</form>
+</th>
+		</tr>
+		<tr> 
+			 <th></th>  <th>
+			<a href = "http://www.iona.edu"> Iona College </a> 
+			<br>
+</th>
+		</tr>
+
+	</table>
+
+
+	</body>
+</html>

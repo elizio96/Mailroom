@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Administration</title>
+		<link rel="stylesheet" type="text/css" href="sample.css">
+	</head>
+	<body>
+	<table border="1">
+		<tr> 
+				<th><a href = "http://www.iona.edu"> <img src="photo2.png" alt="iona college" width=50></a></th>  <th><h1>Mailroom Database</h1></th> <th><a href = "index.html"> Logout </a></th>
+		</tr>
+		<th><a href = "dormSlipCreate.html"> Workers</a></th>
+		<th>List:
+		<form action="AdminForm1.php" method="get">
+		Names of students with packages in  <select name="selectDorm">
+			<option value="Conese">Conese</option>
+			<option value="East">East</option>
+			<option value="Eastchester">Eastchester</option>
+			<option value="Loftus">Loftus</option>
+			<option value="North Ave">North Ave</option>
+			<option value="Rice">Rice</option>
+			<option value="South">South</option>
+		</select>
+		<input type="submit" name="Submit" value="Submit">
+		</form><br>
+		
+		<form action="AdminForm2.php" method="get">
+		List of deltails of types of packages  <select name="boxSize">
+			<option value="BOX"> Box </option>
+			<option value="BAG"> Bag</option>
+			<option value="ENVELOPE">Envelope</option>
+		</select>
+		<input type="submit" name="Submit" value="Submit">
+		</form><br>
+				
+		<form action="AdminForm3.php" method="get">
+		Total packages delievered to <select name="selectDorm">
+			<option value="Conese">Conese</option>
+			<option value="East">East</option>
+			<option value="Eastchester">Eastchester</option>
+			<option value="Loftus">Loftus</option>
+			<option value="North Ave">North Ave</option>
+			<option value="Rice">Rice</option>
+			<option value="South">South</option>
+		</select>
+		<input type="submit" name="Submit" value="Submit">
+		</form>
+				
+		</th>
+		<th><a href="Menu.html">Menu</th>
+	</table>
+		
+	</body>
+</html>

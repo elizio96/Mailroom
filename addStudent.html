@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Add Student</title>
+		<link rel="stylesheet" type="text/css" href="sample.css">
+
+	</head>
+	<body>
+	<h1>Iona College</h1> 
+	<table border="0">
+		<tr> 
+				<th><a href = "http://www.iona.edu"> <img src="photo2.png" alt="text description" width=50></a></th>  
+				<th><h1>Student Residency Entry</h1></th> <th><a href = "index.html"> Logout </a></th>
+		</tr>
+		<tr> 
+				 <th><a href = "Menu.html">Menu</a><br>
+					Iona College
+				</th>  <th>Student Entry:<br><br>
+				
+				<form action = "addStudentForm.php" method="get">
+				 	<div align="left">
+					Name: <input type="text" name="firstN" size="20" required>
+						  <input type="text" name="lastN" size="35" required><br>
+					Dorm Name: <select name="location" required>
+						<option value="Conese">Conese</option>
+						<option value="East">East</option>
+						<option value="Eastchester">Eastchester</option>
+						<option value="Loftus">Loftus</option>
+						<option value="New North Ave">North Ave</option>
+						<option value="Rice">Rice</option>
+						<option value="South">South</option>
+						<option value="New Mayflower Apt">Mayflower Apt</option>
+						<option value="Residence Inn">Residence Inn</option>
+					</select><br>
+
+					Class Status: <select name="year"  >
+					<option value="Freshman">Freshman</option>
+					<option value="Sophmore">Sophmore</option>
+					<option value="Junior">Junior</option>
+					<option value="Senior">Senior</option>
+					</select><br>
+					Room Number: <input type="text" name="roomNum" size="8" required>
+					Floor: <input type="text" name="floorNum" size="2" required><br>
+					Enter Student email: <input type="text" name="email" size="40" required><br><br>
+					</div>
+					<input type="submit" name="Submit" value="Submit">
+					<input type="reset" name="reset"value="Reset">
+				</form>
+</th>
+		</tr>
+		<tr> 
+			 <th></th>  <th>
+							<a href = "Menu.html">Back to Menu</a> <br>
+						</th>
+		</tr>
+
+	</table>
+
+
+	</body>
+</html>

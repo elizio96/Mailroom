@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Add Dorm</title>
+		<link rel="stylesheet" type="text/css" href="sample.css">
+
+	</head>
+	<body>
+	<h1>Iona College</h1> 
+	<table border="0">
+		<tr> 
+				<th><a href = "http://www.iona.edu"> <img src="photo2.png" alt="text description" width=50></a></th>  
+				<th><h1>Dorm Entry</h1></th> <th><a href = "index.html"> Logout </a></th>
+		</tr>
+		<tr> 
+					<th><a href = "Menu.html">Menu</a><br>
+						Iona College
+					</th>  <th>Dorm Entry<br><br>
+					
+					<form action = "addDorm.php" method="get">
+						<div align="left"> 
+						Location: <input type="text" name="location" size="20" required><br>
+						Street: <input type="text" name="street" size="30" required><br>
+						City: <input type="text" name="city" size="30" required>
+						State: <input type="text" name="state" size="3" required>
+						Zip: <input type="text" name="zip" size="6" required>  <br><br>
+						Num Floors: <input type="text" name="numFloors" size="4" required>
+						Num Students: <input type="text" name="numStudents" size="6" required><br><br>
+						</div>
+						<input type="submit" name="Submit" value="Submit">
+						<input type="reset" name="reset"value="Reset">
+				</form>
+					</th>
+					</tr>
+				</table>
+
+
+	</body>
+</html>

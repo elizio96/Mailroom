@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Add Worker</title>
+		<link rel="stylesheet" type="text/css" href="sample.css">
+
+	</head>
+	<body>
+	<h1>Iona College</h1> 
+	<table border="0">
+		<tr> 
+				<th><a href = "http://www.iona.edu"> <img src="photo2.png" alt="text description" width=50></a></th>  							<th><h1>Student Worker</h1></th> <th><a href = "index.html"> Logout </a></th>
+		</tr>
+		<tr> 
+				 <th><a href = "Menu.html">Menu</a><br>
+					Iona College
+				</th>  <th>Add Student Worker:<br>
+				
+				<form action = "addWorkerForm.php" method="get">
+					Enter studentID: <input type="text" name="studentID" required><br>
+					Enter shift: <select name="selectShift">
+						<option value="AM">AM</option>
+						<option value="PM">PM</option>
+					</select><br>
+					Work Study? <select name="workStudy">
+						<option value="Y">Yes</option>
+						<option value="N">No</option>
+					</select><br>
+					<input type="submit" name="Submit" value="Submit">
+					<input type="reset" name="reset"value="Reset">
+				</form></th>
+		</tr>
+		<tr> 
+			 <th></th>  <th><a href = "rcvdPackages.html">Received Packages</a> <br>
+</th>
+		</tr>
+
+	</table>
+
+
+	</body>
+</html>
